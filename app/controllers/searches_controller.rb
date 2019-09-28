@@ -37,6 +37,6 @@ class SearchesController < ApplicationController
     end
     @friends = JSON.parse(resp.body)["response"]["friends"]["items"]
     render 'friends'
-    end
+  end
 
 end
